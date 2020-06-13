@@ -1,0 +1,33 @@
+{
+  "name": "pappy",
+  "version": "1.0.0",
+  "description": "aplicacion educativa",
+  "main": "Server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon Server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Watsattack/Pappy.git"
+  },
+  "keywords": [
+    "pappy"
+  ],
+  "author": "Jorge Rojas C., Rafael Watson G.,Geovanni Lara C., Ivan Colin A.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Watsattack/Pappy/issues"
+  },
+  "homepage": "https://github.com/Watsattack/Pappy#readme"
+}
