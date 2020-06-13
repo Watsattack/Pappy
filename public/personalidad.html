@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pappy</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../styles/personalidad.css">
+	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="topBar">
+        <h3 id="logo">Pappy</h3>
+    </div>
+    <div id="PersonalityTest">
+        <div id="textoTest">
+            <h1 id="IdeaTest">Toma el test de personalidad:</h1>
+        </div>
+        <div id="descripcionTextoTest">
+            <h4 id="descTextoTest">Esto te ayudará a que encuentres a las personas adecuadas para aprender o enseñar.</h4>
+        </div>
+        <button id="ButtonTest" onclick="window.open('https://www.16personalities.com/es/test-de-personalidad')">Realizar test en 16Personalities</button>
+        <div id="onceDone">
+            <p id="onceDoneText">Una vez hecho el cuestionario, ingresa el tipo de personalidad que obtuviste:</p>
+            <div id="personalityInput">
+                <select name="Personalidad" id="personality">
+                    <option>--Seleccione--</option>
+                    <option value="INTJ">INTJ</option>
+                    <option value="INTP">INTP</option>
+                    <option value="ENTJ">ENTJ</option>
+                    <option value="ENTP">ENTP</option>
+                    <option value="INFJ">INFJ</option>
+                    <option value="INFP">INFP</option>
+                    <option value="ENFJ">ENFJ</option>
+                    <option value="ENFP">ENFP</option>
+                    <option value="ISTJ">ISTJ</option>
+                    <option value="ISFJ">ISFJ</option>
+                    <option value="ESTJ">ESTJ</option>
+                    <option value="ESFJ">ESFJ</option>
+                    <option value="ISTP">ISTP</option>
+                    <option value="ISFP">ISFP</option>
+                    <option value="ESTP">ESTP</option>
+                    <option value="ESFP">ESFP</option>
+                  </select>
+                  <button id="buttonPersonality">Sí, esta es mi personalidad</button>
+            </div>
+        </div>    
+    </div>
+</body>
+</html>
