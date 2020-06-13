@@ -1,0 +1,95 @@
+*{
+    font-family: 'MuseoModerno', cursive;
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#topBar{
+    width: 100%;
+    height: 40px;
+    background-color: #591B57;
+    display: flex;
+    flex-direction: row;
+}
+#PersonalityTest{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 0px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+#IdeaTest{
+    margin: auto;
+    font-size: 3rem;
+
+}
+#textoTest{
+    width: 100%;
+    display: flex;
+    flex-direction: column  ;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+#descripcionTextoTest{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#descTextoTest{
+    margin: auto;
+    margin-bottom: 10px;
+}
+#logo{
+    color: white;
+    margin: auto;
+    margin-right: 40px;
+}
+#ButtonTest{
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+    background-color: #591B57;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+}
+#onceDone{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+#onceDoneText{
+    margin: auto;
+}
+#personalityInput{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+#personality{
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 20%;
+    width: 20%;
+}
+#buttonPersonality{
+    margin: auto;
+    margin-right: 20%;
+    background-color: #591B57;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+}
