@@ -5,6 +5,11 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../styles/signUp.css">
 	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+	<script>
+		function alerta() {
+			alert("Solo llenar en caso de ser maestro.")
+		}
+	</script>
 </head>
 <body>
 	<body>
@@ -13,6 +18,7 @@
 				<h1 id="Promo">¡Comienza tu nueva aventura!</h1>
 				<p class="textoPromo">Aprende algo nuevo, conoce expertos en diferentes temas o pásala bien.</p>
 				<p class="textoPromo">Tus clases a tu medida.</p>
+				<a href="login.html">¿Ya tienes cuenta? Inicia sesión</a>
 			</div>
 			<div id="rightSideSignUp">
 				<div id="letreroRegistrate">
@@ -25,7 +31,9 @@
 						<p class="etiqueta">Correo:</p>
 						<p class="etiqueta">Contraseña:</p>
 						<p class="etiqueta">Repetir contraseña:</p>
+						<p class="etiqueta">Fecha de Nacimiento:</p>
 						<p class="etiqueta">Aprendiz/Maestro:</p>
+						<p class="etiqueta">Nivel de estudios:</p>	
 					</div>
 					<div id="rightContainerRegistro">
 						<input type="text" placeholder="Nombre" class="inputSignUp">
@@ -33,10 +41,18 @@
 						<input type="email" placeholder="e-mail" class="inputSignUp">
 						<input type="password" placeholder="Password" class="inputSignUp">
 						<input type="password" placeholder="Repetir" class="inputSignUp">
-						<select name="Tipo" id="Tipo">
+						<input type="date" placeholder="DD/MM/YY" class="inputSignUp">
+						<select name="Tipo" class="Tipo">
 							<option>--Seleccione--</option>
 							<option value="Aprendiz">Aprendiz</option>
 							<option value="Maestro">Maestro</option>
+						</select>
+						<select onchange="alerta()" name="Educacion" class="Tipo">
+							<option></option>
+							<option value="Técnico">Técnico</option>
+							<option value="Licenciatura">Licenciatura</option>
+							<option value="Maestria">Maestría</option>
+							<option value="Doctorado">Doctorado</option>
 						  </select>
 					</div>
 				</div>
