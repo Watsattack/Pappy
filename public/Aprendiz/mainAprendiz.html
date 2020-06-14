@@ -4,7 +4,92 @@
 	<title>Pappy</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="../../styles/mainAprendiz.css">
-	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32bc53167c.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div id="mainContainerAprendiz">
+        <div id="topBar">
+            <div id="logoContainer">
+                <a href="../login.html" id="linkLogo">
+                <h3 id="logo">Pappy</h3>
+                 </a>
+            </div>
+            <div id="clasesContainer">
+                <a href="" id="linkClases">
+                <i id="libroClase" class="fas fa-book"></i>
+                <h5 id="MisClases">Mis clases</h5>
+                </a>
+            </div>
+            <div id="buscarClases">
+                <input type="text" placeholder="Buscar clases..." id="searchBar">
+                <i id="searchIcon" class="fas fa-search "></i>
+            </div>
+            <div id="actionsContainer">
+                <a class="linkIconAction" href="">
+                    <i id="settingsIcon" class="fas fa-cogs fa-2x"></i>
+                </a>
+                <a class="linkIconAction" href="">
+                    <i id="profileIcon" class="fas fa-user-circle fa-2x"></i>
+                </a>
+                <a class="linkIconAction" href="">
+                    <i id="signOutIcon" class="fas fa-sign-out-alt fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div id="contenidoPresente">
+            <div id="todaysTitle">
+                <h1>Tus cursos:</h1>
+            </div>
+            <div id="cursosContainer">
+                <h3 id="cursosActivos">Todavía no te has registrado a ninguna clase :(</h3>
+            </div>
+        </div>
+        <div id="recomendacionesContenido">
+            <div id="titleRecomendaciones">
+                <h1>Estas son algunas clases que te pueden gustar:</h1>
+            </div>
+            <div id="recomendacionesClases">
+                <div class="recomendationClassContainer">
+                    <div class="classTitle">
+                        <h2>Python Básico</h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Iván Colín Arias</p>
+                        <p class="tipoPersonalidad">ESFP</p>
+                    </div>
+                    <div class="moreInfoContainer">
+                            <button class="buttonInfo">Ver más</button>
+                    </div>
+                </div>
+                <div class="recomendationClassContainer">
+                    <div class="classTitle">
+                        <h2>Python Intermedio</h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Rafael Watson González</p>
+                        <p class="tipoPersonalidad">INFP</p>
+                    </div>
+                    <div class="moreInfoContainer">
+                            <button class="buttonInfo">Ver más</button>
+                    </div>
+                </div>
+                <div class="recomendationClassContainer">
+                    <div class="classTitle">
+                        <h2>Python Avanzado</h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Jorge Rojas Cárdenas</p>
+                        <p class="tipoPersonalidad">INTP</p>
+                    </div>
+                    <div class="moreInfoContainer">
+                            <button class="buttonInfo">Ver más</button>
+                    </div>
+                </div>
+            </div>
+            <div id="verTodasClases">
+                <a id="infoClases" href="">Ver información de todas las clases</a>
+            </div>
+        </div>
+    </div>
 </body>
