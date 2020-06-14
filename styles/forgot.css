@@ -1,0 +1,69 @@
+*{
+    font-family: 'MuseoModerno', cursive;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#topBar{
+    width: 100%;
+    height: 40px;
+    background-color: #591B57;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    color: white;
+    margin: auto;
+}
+#forgotLetrero{
+    width: 100%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#forgotText{
+    margin: auto;
+}
+#recuperaContra{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+#noWorriesText{
+    margin: auto;
+    width:50%;
+    text-align: right;
+    margin-right: 20px;
+}
+#inputCorreo{
+    margin: auto;
+    width: 50%;
+}
+button{
+    padding: 4px;
+    background-color:#591B57;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    margin: auto;
+    margin-top: 30px;
+}
+#correo{
+    width: 70%;
+    padding:5px;
+    padding-left: 10px;
+    border-style: solid grey;
+    font-size: 1rem;
+    margin: auto;
+}
