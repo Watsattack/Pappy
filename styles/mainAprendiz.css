@@ -123,13 +123,13 @@ body{
     margin:auto;
     margin-left: 20px;
     margin-top: 10px;
+    margin-bottom: 20px;
     width: calc( 100% - 20px);
 }
 #cursosContainer{
     display: flex;
     flex-direction: row;
     margin: auto;
-    margin-left: 30px;
     margin-top: 0;
     width: calc( 100% - 30px);
 }
@@ -213,5 +213,17 @@ body{
 }
 #infoClases{
     margin: auto;
-    margin-top: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#claseActual{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border: solid black .5px;
+    border-radius: 15px;
+    width: 30%;
 }
