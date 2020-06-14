@@ -75,9 +75,10 @@ body{
     margin-bottom: 20px;
     margin-right: 6px;
 }
-#Tipo{
+.Tipo{
     padding: 5px;
     padding-left: 4px;
+    margin-bottom: 10px;
 }
 #Registrar{
     width: 50%;
