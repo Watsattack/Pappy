@@ -142,6 +142,11 @@ body{
     margin: auto;
     margin-right: 10px;
 }
+#homeworkIcon{
+    color:#591B57;
+    margin: auto;
+    margin-right: 10px;
+}
 a{
     display: flex;
 }
