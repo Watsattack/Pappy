@@ -112,10 +112,8 @@ body{
 #downBar{
     display: flex;
     flex-direction: column;
-    background-color: red;
 }
 #CursosPappy{
-    background-color: blue;
     margin:auto;
     margin-left: 100px;
     margin-top: 40px;
@@ -124,15 +122,13 @@ body{
 #actuallyTheCourses{
     width: 100%;
     height: 71vh;
-    background-color: yellow;
     display: flex;
     flex-direction: column;
 }
 #actuallyTheCoursesContainer{
     display: flex;
     flex-direction: row;
-    width: 95%;
-    background-color: purple;
+    width: 100%;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 0;
@@ -141,13 +137,63 @@ body{
     width: 400px;
     margin: auto;
     margin-top: 10px;
-    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    border: solid black .5px;
+    border-radius: 15px;
 }
 #secondLine{
     margin: auto;
-    margin-top: 0;
-    background-color: green;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .courseTitulo{
     text-align: center;
+}
+.teacherInfo{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.teacherName{
+    display: flex;
+    margin: auto;
+}
+.teacherTextName{
+    margin: auto;
+    padding-left:5px;
+    padding-right: 5px;
+    border: solid grey 1px;
+}
+.teacherPersonality{
+    margin: auto;
+}
+.informacionContenido{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.textContenido{
+    text-align: justify;
+}
+.registrarte{
+    width:90%;
+    margin: auto;
+    margin-top: 15px ;
+    margin-bottom: 15px;
+    display: flex;
+}
+button{
+    margin: auto;
+    padding: 7px;
+    font-size: 1rem;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    background-color:#591B57;
 }
