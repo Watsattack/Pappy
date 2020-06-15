@@ -119,3 +119,13 @@ h1{
     height: 70vh;
     background-color: black;
 }
+#exitContainer{
+    margin: auto;
+    margin-right: 10px;
+}
+#exitIcon{
+    color: red;
+}
+a{
+    display:flex;
+}
