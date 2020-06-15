@@ -99,3 +99,41 @@
     margin: auto;
     margin-left: 20px;
 }
+#Clases{
+    display: flex;
+    flex-direction: column;
+}
+#realTextoClases{
+    margin: auto;
+    margin-left: 0;
+}
+#tituloTusClases{
+    margin: auto;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+#linkClasesNuevas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+#contenidoLinkClasesNuevas{
+    display: flex;
+    margin: auto;
+}
+#captionClases{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin-left: 20px;
+    font-size: 1.4rem;
+}
+#linkClasesDisponiblesGG{
+    margin: auto;
+    text-align: center;
+    color: #591B57;
+}
