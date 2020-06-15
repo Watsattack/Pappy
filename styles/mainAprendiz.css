@@ -121,10 +121,7 @@ body{
 }
 #todaysTitle{
     margin:auto;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    width: calc( 100% - 20px);
+    margin-left: 0;
 }
 #cursosContainer{
     display: flex;
@@ -142,7 +139,6 @@ body{
     flex-direction: column;
     margin: auto;
     margin-top: 80px;
-    width: calc( 100% - 20px);
 }
 #recomendacionesClases{
     width: 100%;
