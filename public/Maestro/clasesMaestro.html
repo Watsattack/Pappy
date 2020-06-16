@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pappy</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../../styles/mainMaestro.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32bc53167c.js" crossorigin="anonymous"></script>
+    <script src="/javascript/mainMaestro.js"></script>
+</head>
+<script>
+  function alerta() {
+    alert("Acaba tus cursos pendientes ya que superaste el limite de cursos que puedes crear")
+  }
+	function alertaRechazada() {
+    alert("no puedes entrar, ya que fue rechazado el curso")
+  }
+	function alertaPendiente() {
+    alert("no puedes entrar, ya que aun esta en proceso de aceptación")
+  }
+</script>
+<body>
+    <div id="mainContainerMaestro">
+        <div id="topBar">
+            <div id="logoContainer">
+                <a href="./mainMaestro.html" id="linkLogo">
+                <h3 id="logo">Pappy</h3>
+                 </a>
+            </div>
+            <div id="clasesContainer">
+                <a href="./clasesMaestro.html" id="linkClases">
+                <i id="libroClase" class="fas fa-book"></i>
+                <h5 id="MisClases">Mis cursos</h5>
+                </a>
+            </div>
+            <div id="buscarClases">
+                <input type="text" placeholder="Buscar clases..." id="searchBar">
+                <i id="searchIcon" class="fas fa-search "></i>
+            </div>
+            <div id="actionsContainer">
+                <a class="linkIconAction" href="perfilAprendiz.html">
+                    <i id="profileIcon" class="fas fa-user-circle fa-2x"></i>
+                </a>
+                <a class="linkIconAction" href="../login.html">
+                    <i id="signOutIcon" class="fas fa-sign-out-alt fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div id="contenidoPresente">
+            <div id="todaysTitle">
+                <h1>Clases impartidas:</h1>
+                <h3>Limite de clases impartidas: 5 de 5</h3>
+            </div>
+            <div class="cursosEstados">
+                <h3>Cursos Aprobados </h3>
+                <div class="estadoAprovado"></div>
+                <h3>Cursos Rechazados </h3>
+                <div class="estadoRechazado"></div>
+                <h3>Cursos Pendientes </h3>
+                <div class="estadoPendiente"></div>
+            </div>
+            <div id="cursosContainer">
+                <div id="claseActual">
+										<div id="optionsCurse">
+                    		<div class="estadoAprovado"></div>
+												<button type="button" onclick="alerta()" id="edit">Editar contenido</button>
+										</div>
+                    <div class="classTitle">
+                        <h2>
+                            <a style="color: black;" href="cursoMaestro1.html">Javascript básico</a>
+                        </h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Geovanni Lara Colis</p>
+                        <p class="tipoPersonalidad">ESFJ</p>
+                    </div>
+										<div class="description">
+												<p style="text-align: justify;">JavaScript es el lenguaje de programación que debes usar para añadir características interactivas a tu sitio web, (por ejemplo, juegos, eventos que ocurren cuando los botones son presionados o los datos son introducidos en los formularios, efectos de estilo dinámicos, animación, y mucho más).</p>
+										</div>
+                </div>
+                <div id="claseActual">
+										<div id="optionsCurse">
+												<div class="estadoPendiente"></div>
+												<button type="button" onclick="alerta()" id="edit">Editar contenido</button>
+										</div>
+                    <div class="classTitle">
+                        <h2>
+                            <a style="color: black;" onclick="alertaPendiente()" href="">Base de datos con mysql</a>
+                        </h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Geovanni Lara Colis</p>
+                        <p class="tipoPersonalidad">ESFJ</p>
+                    </div>
+										<div class="description">
+												<p style="text-align: justify;">En este curso se llevara acabo la realizacion de bases de datos mediante Oracle y mysql, las cuales te podran ayudar en el desarrollo si llega a realizar actividades relacionadas con la programación Bacend o Frontend.</p>
+										</div>
+                </div>
+                <div id="claseActual">
+										<div id="optionsCurse">
+												<div class="estadoPendiente"></div>
+												<button type="button" onclick="alerta()" id="edit">Editar contenido</button>
+										</div>
+                    <div class="classTitle">
+                        <h2>
+                            <a style="color: black;" onclick="alertaPendiente()" href="">Introduccion a css</a>
+                        </h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Geovanni Lara Colis</p>
+                        <p class="tipoPersonalidad">ESFJ</p>
+                    </div>
+										<div class="description">
+												<p style="text-align: justify;">En este curso se abarcaran diferentes puntos en los que podras familiriazar con las etiquetas y como manejarlos adecuadamente, ademas de poderlos utilizar prácticamente.</p>
+										</div>
+                </div>
+                <div id="claseActual">
+										<div id="optionsCurse">
+												<div class="estadoAprovado"></div>
+												<button type="button" onclick="alerta()" id="edit">Editar contenido</button>
+										</div>
+                    <div class="classTitle">
+                        <h2>
+                            <a style="color: black;" href="cursoMaestro2.html">Introducción Unreal Engine</a>
+                        </h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Geovanni Lara Colis</p>
+                        <p class="tipoPersonalidad">ESFJ</p>
+                    </div>
+										<div class="description">
+												<p style="text-align: justify;">Unreal Engine es un motor para desarrollo de videojuegos en el que podrás crear tus ideas, en este curso veras como empezar esa idea que siempre has tenido y mucho más...</p>
+										</div>
+                </div>
+                <div id="claseActual">
+										<div id="optionsCurse">
+												<div class="estadoRechazado"></div>
+												<button type="button" onclick="alerta()" id="edit">Editar contenido</button>
+										</div>
+                    <div class="classTitle">
+                        <h2>
+                            <a style="color: black;" onclick="alertaRechazada()" href="">Programación orientada a objetos</a>
+                        </h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Geovanni Lara Colis</p>
+                        <p class="tipoPersonalidad">ESFJ</p>
+                    </div>
+										<div class="description">
+												<p style="text-align: justify;">La programación orientada objetos es fundamental para el desarrollo de programas para resolver problema, esto y mucho mas podras ver en este curso</p>
+										</div>
+                </div>
+            </div>
+            <button type="button" onclick="alerta()" id="Iniciar">Agregar curso</button>
+        </div>
+    </div>
+</body>
