@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'MuseoModerno', cursive;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+#mainContainerMaestro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#topBar{
+    width: 100%;
+    height: 10%;
+    background-color: #591B57;
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    color: white;
+    margin: auto;
+}
+#GetOut{
+    color: white;
+    margin: auto;
+    margin-right: 0;
+    width: 30px;
+    height: 30px;
+}
+#buscarClases{
+    margin: auto;
+    margin-left: 0;
+    background-color: rgb(219, 218, 218);
+    width: 32%;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+}
+#logoContainer{
+    margin-left: 20px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+#clasesContainer{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+#libroClase{
+    color: white;
+    margin-right: 20px;
+    margin: auto;
+}
+#MisClases{
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+    margin: auto;
+    margin-left: 6px;
+    margin-right: 18px;
+}
+#linkClases{
+    display: flex;
+    flex-direction: row;
+}
+#linkLogo{
+    display: flex;
+    flex-direction: row;
+}
+#searchBar{
+    background-color: rgb(219, 218, 218);
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    width: 85%;
+}
+#searchIcon{
+    margin: auto;
+}
+#actionsContainer{
+    height: 50px;
+    width: 350px;
+    margin:auto;
+    margin-left: 60px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+}
+.linkIconAction{
+    display: flex;
+    flex-direction: row;
+}
+#settingsIcon{
+    color: white;
+    margin: auto;
+    margin-right: 20px;
+}
+#profileIcon{
+    color: white;
+    margin: auto;
+}
+#signOutIcon{
+    color: white;
+    margin: auto;
+    margin-left: 20px;
+}
+#contenidoPresente{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+#todaysTitle{
+    margin:auto;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    width: calc( 100% - 20px);
+}
+#todaysTitle h3{
+  margin: 10px;
+  text-align: right;
+}
+#cursosContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 0;
+    width: calc( 100% - 30px);
+}
+#cursosActivos{
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+.classTitle{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.classInformation{
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    display: flex;
+    flex-direction: row;
+}
+.tipoPersonalidad{
+    font-size: 1rem;
+    margin: auto;
+    margin-left: 10px;
+    padding-left:5px;
+    padding-right:5px;
+    border: solid grey 1px;
+}
+.maestroInformation{
+
+    padding-left:5px;
+    padding-right:5px;
+    border: solid grey 1px;
+}
+#Iniciar{
+    width: 30%;
+    padding: 4px;
+    background-color:#591B57;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#verTodasClases{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#infoClases{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#claseActual{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: solid black .5px;
+    border-radius: 15px;
+    width: 30%;
+}
+#optionsCurse{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.cursosEstados{
+    display: flex;
+    flex-direction: row;
+}
+.cursosEstados h3{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.estadoAprovado{
+    width: 30px;
+    height: 30px;
+    background: #2D572C;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.estadoRechazado{
+    width: 30px;
+    height: 30px;
+    background: #CB3234;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.estadoPendiente{
+    width: 30px;
+    height: 30px;
+    background: #5B5B5B;
+    border-radius: 15px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.description{
+    width: 90%;
+    margin-left: 17px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#edit{
+  width: 40%;
+  margin-left: auto;
+  border-top-right-radius: 15px;
+  cursor: pointer;
+}
