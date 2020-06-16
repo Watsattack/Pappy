@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pappy</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../../styles/mainMaestro.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32bc53167c.js" crossorigin="anonymous"></script>
+    <script src="/javascript/mainMaestro.js"></script>
+</head>
+<script>
+  function alerta() {
+    alert("Acaba tus cursos pendientes ya que superaste el limite de cursos que puedes crear")
+  }
+</script>
+<body>
+    <div id="mainContainerMaestro">
+        <div id="topBar">
+            <div id="logoContainer">
+                <a href="./mainMaestro.html" id="linkLogo">
+                <h3 id="logo">Pappy</h3>
+                 </a>
+            </div>
+            <div id="clasesContainer">
+                <a href="./clasesMaestro.html" id="linkClases">
+                <i id="libroClase" class="fas fa-book"></i>
+                <h5 id="MisClases">Mis cursos</h5>
+                </a>
+            </div>
+            <div id="buscarClases">
+                <input type="text" placeholder="Buscar clases..." id="searchBar">
+                <i id="searchIcon" class="fas fa-search "></i>
+            </div>
+            <div id="actionsContainer">
+                <a class="linkIconAction" href="perfilAprendiz.html">
+                    <i id="profileIcon" class="fas fa-user-circle fa-2x"></i>
+                </a>
+                <a class="linkIconAction" href="../login.html">
+                    <i id="signOutIcon" class="fas fa-sign-out-alt fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div id="contenidoPresente">
+            <div id="todaysTitle">
+                <h1>Clases impartidas:</h1>
+            </div>
+            <div id="cursosContainer">
+                <div id="claseActual">
+                    <div class="classTitle">
+                        <h2>
+                            <a style="color: black;" href="cursoMaestro1.html">Javascript básico</a>
+                        </h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Geovanni Lara Colis</p>
+                        <p class="tipoPersonalidad">ESFJ</p>
+                    </div>
+										<div class="description">
+												<p style="text-align: justify;">JavaScript es el lenguaje de programación que debes usar para añadir características interactivas a tu sitio web, (por ejemplo, juegos, eventos que ocurren cuando los botones son presionados o los datos son introducidos en los formularios, efectos de estilo dinámicos, animación, y mucho más).</p>
+										</div>
+                </div>
+                <div id="claseActual">
+                    <div class="classTitle">
+                        <h2>
+                            <a style="color: black;" href="cursoMaestro2.html">Introducción Unreal Engine</a>
+                        </h2>
+                    </div>
+                    <div class="classInformation">
+                        <p class="maestroInformation">Docente: Geovanni Lara Colis</p>
+                        <p class="tipoPersonalidad">ESFJ</p>
+                    </div>
+										<div class="description">
+												<p style="text-align: justify;">Unreal Engine es un motor para desarrollo de videojuegos en el que podrás crear tus ideas, en este curso veras como empezar esa idea que siempre has tenido y mucho más..</p>
+										</div>
+                </div>
+        </div>
+    </div>
+</body>

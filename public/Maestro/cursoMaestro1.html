@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pappy</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="../../styles/cursoMaestro.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/32bc53167c.js" crossorigin="anonymous"></script>
+</head>
+<script>
+  function alertaPost() {
+    alert("Publicando......")
+  }
+	function alertaUpload() {
+    alert("Entregando......")
+  }
+</script>
+<body>
+    <div id="mainContainerMaestro">
+        <div id="topBar">
+            <div id="logoContainer">
+                <a href="mainMaestro.html" id="linkLogo">
+                <h3 id="logo">Pappy</h3>
+                 </a>
+            </div>
+            <div id="clasesContainer">
+                <a href="./clasesMaestro.html" id="linkClases">
+                <i id="libroClase" class="fas fa-book"></i>
+                <h5 id="MisClases">Mis clases</h5>
+                </a>
+            </div>
+            <div id="buscarClases">
+                <input type="text" placeholder="Buscar clases..." id="searchBar">
+                <i id="searchIcon" class="fas fa-search "></i>
+            </div>
+            <div id="actionsContainer">
+                <a class="linkIconAction" href="perfilMaestro.html">
+                    <i id="profileIcon" class="fas fa-user-circle fa-2x"></i>
+                </a>
+                <a class="linkIconAction" href="../login.html">
+                    <i id="signOutIcon" class="fas fa-sign-out-alt fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div id="mainJaja">
+          <div class="classContainer">
+            <div id="className">
+                <h1>Javascript Básico-</h1>
+            </div>
+            <h3 id="nombreDocente">Geovanni Lara Colis (ESFJ)</h3>
+            <div class="featureDiv">
+                <a href="videollamada.html">
+                    <i id= "videocallIcon" class="fas fa-video fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div class="classContainer">
+            <div id="anunciosRecientes">
+                <h3>Última videollamada: 13/06/2020</h3>
+            </div>
+        </div>
+    </div>
+		<div id="posts">
+				<div class="classContainerPost">
+						<input type="text" maxlength="30" placeholder="Titulo de post" name="nombre" id="nombrePost">
+						<textarea type="text" name="details" placeholder="Descripción" rows="10" cols="40" id="details"></textarea>
+						<p>
+							Material de trabajo:
+							<input type="file" name="archivoSubido" id="upload">
+						</p>
+						<button type="button" onclick="alertaPost()" id="public">publicar</button>
+				</div>
+		</div>
+		<div class="separacion">Publicaciones anteriores</div>
+		<div class="viewPost">
+			<div class="classContainerPost">
+					<h1 id="nombrePost" style="font-weight: bold">Evaluación<h1>
+					<div id="detail"><h5>Bienvenido al curso para empezar veamos como se va evaluar el curso, una ves dado por visto marcar como entregado.</h5></div>
+					<h1 style="font-weight: bold">Material de apoyo:</h1>
+					<iframe src="Evaluación.pdf" width="50%" height="280px"></iframe>
+					<p>
+						Entregables:
+						<input type="file" name="archivoSubido" id="upload">
+					</p>
+					<button type="button" onclick="alertaUpload()" id="public">Entregar</button>
+			</div>
+		</div>
+</body>
+</html>
