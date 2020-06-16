@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Admin</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../../styles/main.css">
+</head>
+<body>
+	<section class="full-box cover dashboard-sideBar">
+		<div class="full-box dashboard-sideBar-bg btn-menu-dashboard"></div>
+		<div class="full-box dashboard-sideBar-ct">
+			<div class="full-box text-uppercase text-center text-titles dashboard-sideBar-title">
+				PAPPY <i class="zmdi zmdi-close btn-menu-dashboard visible-xs"></i>
+			</div>
+			<div class="full-box dashboard-sideBar-UserInfo">
+				<figure class="full-box">
+					<img src="../../assets/img/avatar.jpg" alt="UserIcon">
+					<figcaption class="text-center text-titles">Administradddor</figcaption>
+				</figure>
+				<ul class="full-box list-unstyled text-center">
+					<li>
+						<a href="#!" class="btn-exit-system">
+							<i class="zmdi zmdi-power"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<ul class="list-unstyled full-box dashboard-sideBar-Menu">
+				<li>
+					<a href="home.html">
+						<i class="zmdi zmdi-view-dashboard zmdi-hc-fw"></i> Menu Principal
+					</a>
+				</li>
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="zmdi zmdi-account-add zmdi-hc-fw"></i> Usuarios <i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="admin.html"><i class="zmdi zmdi-account zmdi-hc-fw"></i> Administradores</a>
+						</li>
+						<li>
+							<a href="maestro.html"><i class="zmdi zmdi-male-alt zmdi-hc-fw"></i> Maestros</a>
+						</li>
+						<li>
+							<a href="estduiante.html"><i class="zmdi zmdi-face zmdi-hc-fw"></i> Estudiantes</a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#!" class="btn-sideBar-SubMenu">
+						<i class="zmdi zmdi-card zmdi-hc-fw"></i> Cursos <i class="zmdi zmdi-caret-down pull-right"></i>
+					</a>
+					<ul class="list-unstyled full-box">
+						<li>
+							<a href="aceptar.html"><i class="zmdi zmdi-book zmdi-hc-fw"></i> Cursos por aceptar</a>
+						</li>
+						<li>
+							<a href="aceptados.html"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Cursos aceptados</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</section>
+	<section class="full-box dashboard-contentPage">
+
+		<nav class="full-box dashboard-Navbar">
+			<ul class="full-box list-unstyled text-right">
+			</ul>
+		</nav>
+		<div class="container-fluid">
+			<div class="page-header">
+			  <h1 class="text-titles"><i class="zmdi zmdi-graduation-cap zmdi-hc-fw"></i> Cursos aceptados </h1>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="nav nav-tabs" style="margin-bottom: 15px;">
+					  	<li><a href="#list" data-toggle="tab">Lista</a></li>
+					</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					  	<div class="tab-pane fade" id="list">
+							<div class="table-responsive">
+								<table class="table table-hover text-center">
+									<thead>
+										<tr>
+											<th class="text-center">#</th>
+											<th class="text-center">Docente</th>
+											<th class="text-center">Materia</th>
+											<th class="text-center">Cursos impartiendose</th>
+											<th class="text-center">Cursos impartidos</th>
+											<th class="text-center">Eliminar</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<tr>
+													<td>1</td>
+													<td>Ivan Colin</td>
+													<td>Python Básico</td>
+													<td>1</td>
+													<td>0</td>
+													<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
+												</tr>
+												<tr>
+													<td>2</td>
+													<td>Rafael Watson</td>
+													<td>Python Intermedio </td>
+													<td>1</td>
+													<td>2</td>
+													<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
+
+												</tr>
+												<tr>
+													<td>3</td>
+													<td>Jorge Rojas</td>
+													<td>Python Avanzado</td>
+													<td>2</td>
+													<td>1</td>
+													<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
+												</tr>
+												<tr>
+													<td>4</td>
+													<td>Geovanni Lara Colis</td>
+													<td>Javascript Básico</td>
+													<td>5</td>
+													<td>1</td>
+													<td><a href="#!" class="btn btn-danger btn-raised btn-xs"><i class="zmdi zmdi-delete"></i></a></td>
+												</tr>
+
+
+										</tr>
+									</tbody>
+								</table>
+								<ul class="pagination pagination-sm">
+								  	<li class="disabled"><a href="#!">«</a></li>
+								  	<li class="active"><a href="#!">1</a></li>
+								  	<li><a href="#!">»</a></li>
+								</ul>
+							</div>
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="../../javascript/jquery-3.1.1.min.js"></script>
+	<script src="../../javascript/sweetalert2.min.js"></script>
+	<script src="../../javascript/bootstrap.min.js"></script>
+	<script src="../../javascript/material.min.js"></script>
+	<script src="../../javascript/ripples.min.js"></script>
+	<script src="../../javascript/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script src="../../javascript/main.js"></script>
+	<script>
+		$.material.init();
+	</script>
+</body>
+</html>
