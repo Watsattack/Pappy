@@ -54,7 +54,20 @@ $(document).ready(function(){
 			window.location.href="section.html";
 		});
 	});
+	$('.btn-exit-system3').on('click', function(){
+		swal({
+				title: 'Este es tu test de personalidad',
+				text: "INFP",
 
+				showCancelButton: true,
+				confirmButtonColor: '#03A9F4',
+				cancelButtonColor: '#2BE582  ',
+				confirmButtonText: '</i> Realizar otra vez test',
+				cancelButtonText: '</i> Aceptar'
+		}).then(function () {
+			window.location.href="https://www.16personalities.com/es/test-de-personalidad";
+		});
+	});
 
 
 })(jQuery);
